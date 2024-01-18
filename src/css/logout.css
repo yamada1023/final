@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+.info {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.infoA {
+    display: flex;
+    justify-content: center;
+    text-underline-offset: 2px;
+}

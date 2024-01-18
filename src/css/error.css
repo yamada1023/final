@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+.button {
+    text-decoration: none;
+    padding: 5px 20px;
+    background-color: #FFF;
+    border-radius: 25px;
+    border: 1px solid #324B4C;
+    width: fit-content;
+    margin: 1rem auto;
+    transition: .2s all;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #c0ddde7a;
+}
+
+.container-fluid {
+    margin-top: 4rem;
+}
+
+.back {
+    display: flex;
+    justify-content: center;
+    text-underline-offset: 2px;
+}

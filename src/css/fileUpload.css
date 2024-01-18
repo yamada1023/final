@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.required {
+    color: rgb(187, 0, 0);
+    text-align: center;
+    font-weight: 600;
+}
+
+.notice {
+    text-align: center;
+}
+
+.table {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.subtitle {
+    vertical-align: middle;
+    text-align: end;
+}
+
+.content {
+    max-width: 200px;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+#preview {
+    max-width: 5rem;
+    max-height: 5rem;
+    border-radius: 50%;
+    margin-top: .5rem;
+}
+
+.button_wrap {
+    margin: 2rem auto;
+    display: flex;
+}
+
+.button {
+    text-decoration: none;
+    padding: 5px 20px;
+    background-color: #FFF;
+    border-radius: 25px;
+    border: 1px solid #324B4C;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 1rem;
+    transition: .2s all;
+}
+
+.prev {
+    position: relative;
+    margin-right: 4rem;
+    cursor: pointer;
+}
+
+.next {
+    position: relative;
+    margin-left: 4rem;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #c0ddde7a;
+}
+
+.label {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+#check {
+    margin-right: .5rem;
+}
+
+.comp_wrap {
+    margin-top: 2rem;
+}
+
+.comp {
+    text-align: center;
+    font-size: larger;
+}
+
+.compA {
+    display: block;
+    width: fit-content;
+    margin: 2rem auto;
+    text-underline-offset: 2px;
+}
+
+.compA_wrap {
+    display: flex;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}

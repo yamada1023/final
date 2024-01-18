@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.icon {
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.img_wrap {
+    position: relative;
+    width: fit-content;
+    margin: auto;
+    margin-right: 0;
+}
+
+.imgBack {
+    position: absolute;
+    width: 6rem;
+    height: 6rem;
+    top: -0.5rem;
+    right: -0.5rem;
+    border-radius: 50%;
+    z-index: -1;
+    transition: .3s all;
+}
+
+.img_wrap:hover .imgBack {
+    background-color: #C0DDDE;
+    filter: blur(1rem);
+}
+
+.subtitle {
+    vertical-align: middle;
+    text-align: end;
+}
+
+.table {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.data {
+    max-width: 200px;
+}
+
+.submit_wrap {
+    display: flex;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#name {
+    vertical-align: bottom;
+}
+
+.delete {
+    display: block;
+    width: fit-content;
+    margin: 2rem auto;
+    position: relative;
+    font-size: smaller;
+    color: #95B0B1;
+    text-underline-offset: 2px;
+    cursor: pointer;
+}
+
+.content {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.tableP {
+    position: relative;
+    margin: 0;
+    cursor: pointer;
+    background-color: #FFF;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.tableDiv {
+    position: absolute;
+    bottom: 0;
+    left: -1rem;
+    width: 115%;
+    height: 34px;
+    z-index: -1;
+    transition: .2s all;
+}
+
+.tableP:hover .tableDiv {
+    background-color: #C0DDDE;
+    filter: blur(1rem);
+}
